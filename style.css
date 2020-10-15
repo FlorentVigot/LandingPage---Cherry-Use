@@ -180,12 +180,12 @@ button {
 
 /* Resposive */
 
-@media (max-width: 640px) {
+@media (max-width: 420px) {
   * {
     box-sizing: border-box;
   }
   body {
-    width: 80%;
+    width: 100%;
     margin: 0;
     padding: 0;
   }
@@ -239,6 +239,7 @@ button {
     display: flex;
     margin: auto;
     margin-top: 3%;
+    font-family: sofia-pro, bold;
   }
   .prez button h4 {
     color: white;
@@ -262,7 +263,7 @@ button {
     margin-top: 2%;
     color: #34930c;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     padding-left: 10%;
     padding-right: 10%;
@@ -289,6 +290,7 @@ button {
   .soutiencontact {
     height: 380px;
     background-color: #c8e9fa;
+    width: 100%;
   }
   .soutientitre h2 {
     font-size: 15px;
