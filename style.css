@@ -2,16 +2,24 @@
   padding: 0;
   margin: 0;
 }
+.espace {
+  height: 30px;
+  width: 100%;
+  background-color: white;
+}
 .logo {
   display: flex;
+  margin-top: 10px;
 }
 .logo img {
+  margin-top: 10%;
   height: 92px;
   width: 172px;
   margin: auto;
 }
 /* prez */
 .prez {
+  margin-top: 10px;
   background-color: #c8e9fa;
   height: 313px;
   width: 100%;
@@ -90,6 +98,7 @@
   font-size: 20px;
   margin: auto;
 }
+/* ::::::::::::::::::::::::::::::::::::::::::::::::: */
 /* Contact */
 .soutiencontact {
   width: 100%;
